@@ -9,6 +9,8 @@ csv_writer=csv.writer(csv_file)
 csv_writer.writerow(['Date', 'Time', 'User1', ' User2', 'm or not', '#bytes changed'])
 
 
+#add the url of any articles history below
+
 source=requests.get('https://en.wikipedia.org/w/index.php?title=Main_Page&offset=20020909070344%7C207690&limit=500&action=history').text
 soup=BeautifulSoup(source, 'lxml')
 page=soup.find('ul',id='pagehistory' )

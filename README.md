@@ -1,6 +1,6 @@
 # Wiki Revision history scrap
 
-Wiki Revision history scrap using Beautiful soup and pandas libraries.
+Wiki Revision history scrap using Beautiful soup and pandas libraries and exporting it to a csv file.
 
 This code can be used to crawl wikipedia revisions history data. 
 I needed "Date" "Time" "user" "minor edits or not" "# of bytes changed" for a project. 

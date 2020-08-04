@@ -19,3 +19,11 @@ Using the code, I have extracted the following:
 ![](img/webScrapA.PNG)
 
 I needed my data in reversed order. So I used reversed function in my loop. You can modify it according to your needs.
+
+
+The above  can collect only 500 entries at once.
+However, most of the articles have thousands of revision history entries.
+To scrap those, I used pywikibot. It is a library that uses wiki media API .
+It allows us to scrap all entries at once. 
+The drawback with this is that, pwikibot does not have a size parameter to extract size.
+The code is in scrap2.py

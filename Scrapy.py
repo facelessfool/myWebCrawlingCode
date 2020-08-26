@@ -71,6 +71,3 @@ df
 #insert you cav file name you can also give path name of your csv file
 <<<<<<< HEAD
 df.to_csv('csv_file_name.csv',encoding="utf-8")
-=======
-df.to_csv('csv_file_name.csv',encoding="utf-8")
->>>>>>> 7b84772b65c0894acdd559a348e8d560e79b89e6
